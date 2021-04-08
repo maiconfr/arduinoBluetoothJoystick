@@ -24,23 +24,23 @@ O controle 1 conta com 6 botões e dois joysticks. Os botões de letras (A até 
 O joystick da esquerda representa os comando de andar para frente e para trás do carrinho. Ele envia um valor "Y" com um número para indicar o comando para frente e a velocidade, e para andar para trás o valor é mínusculo "y". Por exemplo:
 - Valor enviado pela serial para andar para frente a uma velocidade de 20
 ```sh
-Y20
+Y20Y
 ```
 
 - Valor enviado pela serial para andar para trás a uma velocidade de 20
 ```sh
-y20
+y20y
 ```
 
 O joystick da direita representa virar para esquerda e direita. Ele envia um valor, "X" ou "x", com um número para indicar o quanto o carrinho irá virar. Por exemplo:
 - Valor enviado pela serial para andar para esquerda com um grau de 60
 ```sh
-X60
+X60X
 ```
 
 - Valor enviado pela serial para andar para direita com um grau de 60
 ```sh
-x60
+x60x
 ```
 
 ### Controle Mode 2
