@@ -1,4 +1,5 @@
 # Aplicativo desenvolvido pela <a href="https://indoortech.com.br/">Indoor Tech</a>
+Quer seu controle personalizado ou tem alguma dúvida? Entre em contato: contato@indoortech.com.br
 
 ![](indoortech.png)
 
@@ -46,16 +47,16 @@ x60x
 ### Controle Mode 2
 O controle 2 conta com 9 botões e uma barra de velocidade. Os botões de letras (F até J) enviam dois comandos pela serial, maiúsculo e minúsculo. Os botões representates com setas indicam a direção do carrinho, e a velocidade é ficaxa pelo valor selecionado na barra de velocidade (valores de 0 a 9).
 
-Nos comandos de direção temos dois toques de comando, um para iniciar o movimento e o segundo toque na mesma tecla para cancelar o comando. Temos a seguinte relação dos valores enviados pela serial:
+Nos comandos de direção temos dois comandos, um que envia quando o botão é segurado e outro quando solta o botão. Temos a seguinte relação dos valores enviados pela serial:
 
-- Clicar na seta para cima a primeira vez: "+";
-- Clicar na seta para cima a segunda vez: ".";
-- Clicar na seta para baixo a primeira vez: "-";
-- Clicar na seta para baixo a segunda vez: ".";
-- Clicar na seta para esquerda a primeira vez: "/";
-- Clicar na seta para esquerda a segunda vez: "=";
-- Clicar na seta para direita a primeira vez: "*";
-- Clicar na seta para direita a segunda vez: "=";
+- Clicar na seta para cima e segurar: "+";
+- Soltar a seta para cima: ".";
+- Clicar na seta para baixo e segurar: "-";
+- Soltar a seta para baixo: ".";
+- Clicar na seta para esquerda e segurar: "/";
+- Soltar a seta para esquerda: "=";
+- Clicar na seta para direita e segurar: "*";
+- Soltar a seta para direita: "=";
 
 ### Controle Mode 3
 Neste controle temos uma série de botões de switches. Os botões de letras (O até V) enviam dois comandos pela serial, maiúsculo e minúsculo, e os switches enviam as letras conforme selecionado.
