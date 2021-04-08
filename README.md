@@ -6,9 +6,10 @@
 
 Este repositório visa explicar o funcionamento do aplicativo "arduinoBluetoothJoystick" para Android. O aplicativo foi desenvolvido como um controle bluetooth para carrinhos conectados em arduinos.
 
-O aplicativo foi testado apenas com o módulo bluetooth:
+O aplicativo foi testado apenas com os módulos bluetooth:
 ```sh
 Módulo Bluetooth HC-05
+Módulo Bluetooth HC-06
 ```
 
 O aplicativo tem as seguintes funções:
@@ -43,7 +44,7 @@ x60
 ```
 
 ### Controle Mode 2
-O controle 1 conta com 9 botões e uma barra de velocidade. Os botões de letras (F até J) enviam dois comandos pela serial, maiúsculo e minúsculo. Os botões representates com setas indicam a direção do carrinho, e a velocidade é ficaxa pelo valor selecionado na barra de velocidade (valores de 0 a 9).
+O controle 2 conta com 9 botões e uma barra de velocidade. Os botões de letras (F até J) enviam dois comandos pela serial, maiúsculo e minúsculo. Os botões representates com setas indicam a direção do carrinho, e a velocidade é ficaxa pelo valor selecionado na barra de velocidade (valores de 0 a 9).
 
 Nos comandos de direção temos dois toques de comando, um para iniciar o movimento e o segundo toque na mesma tecla para cancelar o comando. Temos a seguinte relação dos valores enviados pela serial:
 
