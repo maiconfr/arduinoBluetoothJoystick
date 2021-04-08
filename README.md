@@ -45,7 +45,7 @@ x60x
 ```
 
 ### Controle Mode 2
-O controle 2 conta com 9 botões e uma barra de velocidade. Os botões de letras (F até J) enviam dois comandos pela serial, maiúsculo e minúsculo. Os botões representates com setas indicam a direção do carrinho, e a velocidade é ficaxa pelo valor selecionado na barra de velocidade (valores de 0 a 9).
+O controle 2 conta com 9 botões e uma barra de velocidade. Os botões de letras (F até J) enviam dois comandos pela serial, maiúsculo e minúsculo. Os botões representates com setas indicam a direção do carrinho, e a velocidade é fixada pelo valor selecionado na barra de velocidade (valores de 0 a 9).
 
 Nos comandos de direção temos dois comandos, um que envia quando o botão é segurado e outro quando solta o botão. Temos a seguinte relação dos valores enviados pela serial:
 
