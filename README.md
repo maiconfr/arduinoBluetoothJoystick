@@ -3,7 +3,7 @@ Quer seu controle personalizado ou tem alguma dúvida? Entre em contato: contato
 
 ![](indoortech.png)
 
-# Descrição do Aplicativo "arduinoBluetoothJoystick"
+# Descrição do Aplicativo "Arduino Bluetooth Joystick"
 
 Este repositório visa explicar o funcionamento do aplicativo "Arduino Bluetooth Joystick" para Android. O aplicativo foi desenvolvido como um controle bluetooth para carrinhos conectados em arduinos.
 
